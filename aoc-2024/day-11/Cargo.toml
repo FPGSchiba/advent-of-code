@@ -1,0 +1,14 @@
+[package]
+name = "day-11"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1.11.0"
+lazy_static = "1.5.0"
+phf = { version = "0.11", features = ["macros"] }
+indicatif = "0.17"
+rayon = "1.7"
+mimalloc = { version = "0.1", default-features = false }
+memmap2 = "0.5"
+crossbeam-channel = "0.5"
